@@ -9,7 +9,7 @@ namespace SamuraiUI
 {
     internal class Program
     {
-        private static SamuraiContext _context = new SamuraiContext();
+        private static SamuraiContext _context = new SamuraiContext(); // Open DbContext
 
         private static void Main(string[] args)
         {
